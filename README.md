@@ -1,5 +1,7 @@
 # Telegram Breach Notification Bot
 
+At the Moment hosted on AWS Lambda, Based on a University Project
+
 This repository contains a Python-based Telegram bot that helps users check for recent data breaches and whether their email addresses have been compromised. The bot provides the following commands:
 - `/start` - Starts the bot
 - `/breaches` - Shows the recent data breaches in the last 30 days
@@ -53,3 +55,4 @@ To deploy the bot to AWS Lambda, package the Lambda.py script and its dependenci
 /breached [email] - Check if the provided email address has been pwned.
 /help - Show a help message with available commands.
 ```
+
